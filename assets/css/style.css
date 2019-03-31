@@ -1,0 +1,61 @@
+
+
+.triviabox {
+    background: mediumslateblue;
+    width: 80%;
+    height: 600px;
+    border-radius: 8px;
+}
+
+.crdstyle {
+    width: 100%;
+    height: 45%;
+    background: lightgreen;
+    border-radius: 3px !important;
+    cursor: pointer;
+}
+
+.crdstyle:hover {
+    background: rgb(126, 209, 126);
+}
+
+.title{
+    height:15%;
+}
+
+.gameui{
+    height:85%;
+}
+
+.questions{
+    height: 100%;
+}
+
+.current-options{
+    height: 55%;
+}
+
+.lenny {
+    max-width: 100%;
+}
+
+.results {
+    display: none;
+}
+
+.right-wrong {
+    min-height: 50px
+}
+
+.dialog-space {
+    min-height: 38px
+}
+
+.final {
+    min-height: 265px
+}
+
+.time-left {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
