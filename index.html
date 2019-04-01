@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
   <title>Lenny Trivia</title>
 </head>
 
@@ -19,7 +22,7 @@
 
       <div class="row title text-center">
         <div class="col-12 mt-3">
-          <h1>Lenny Kravitz Trivia</h1>
+          <h1 class="poppins">Lenny Kravitz Trivia</h1>
         </div>
       </div>
 
@@ -31,6 +34,7 @@
 
             <div class="row">
               <div class="col-12 dialog-space mt-3">
+                 
               </div>
             </div>
 
@@ -41,7 +45,7 @@
             </div>
 
             <div class="row">
-              <div class="col-12 time mt-5 text-center">
+              <div class="col-12 time poppins mt-5 text-center">
                 <h4 class="time-text mb-0">Time left:</h4>
                 <div class="time-left mt-n3"></div>
               </div>
@@ -53,34 +57,45 @@
 
         <div class="col-9">
           
-          <div class="container questions mt-3">
+          <div class="container questions mt-2">
 
             <div class="row text-center">
               <div class="col-12 current-question">
-                <h4>What was Lenny's first single?</h4>
+                
               </div>
             </div>
 
-            <div class="row current-options mt-3">
+            <div class="row game-intro mt-3">
 
+              <div class="card mt-4">
+                <div class="card-body intro pt-4">
+                  <h3>So you think you are a huge Lenny Kravitz fan?</h3>
+                  <h3>This is your chance to prove it!</h3>
+                  <h3>You will be asked 10 questions and you will have 10 seconds to answer each one.</h3><br>
+                  <h3 class="text-center">Are you ready?</h3>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row questions-display mt-3">
               <div class="col-6">
-                <div class="card crdstyle">
+                <div class="card crdstyle options">
                   <div class="card-body answer a1" value="Let Love Rule"><h3>a) Let Love Rule</h3></div>
                 </div>
-                <div class="card crdstyle mt-4">
+                <div class="card crdstyle options mt-4">
                   <div class="card-body answer a3" value="Billie Jean"><h3>c) Billie Jean</h3></div>
                 </div>
               </div>
-
+      
               <div class="col-6">
-                <div class="card crdstyle">
+                <div class="card crdstyle options">
                   <div class="card-body answer a2" value="Mo Bamba"><h3>b) Mo Bamba</h3></div>
                 </div>
-                <div class="card crdstyle mt-4">
+                <div class="card crdstyle options mt-4">
                   <div class="card-body answer a4" value="Macarena"><h3>d) Macarena</h3></div>
                 </div>
               </div>
-
             </div>
 
             <div class="row text-center">
@@ -105,7 +120,7 @@
 
     <div class="row results mt-3">
       <div class="card crdstyle mt-4">
-        <div class="card-body answer final"></div>
+        <div class="card-body final text-center"></div>
       </div>
     </div>
 
